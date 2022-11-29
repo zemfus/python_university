@@ -7,7 +7,11 @@ def top_l(d: dict):
 
 
 def main():
-    dict = {"Nevolina":["Russia", "English"], "Levin":["Russia", "English", "French"], "Konic":["Ukranian"]}
+    dict = {
+        "Nevolina":["Russia", "English"], 
+        "Levin":["Russia", "English", "French"], 
+        "Konic":["Ukranian"]
+        }
     
     print(top_l(dict))
 

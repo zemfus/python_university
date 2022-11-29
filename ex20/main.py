@@ -7,8 +7,8 @@ def get_dict(d: dict):
     
 def main():
     test = {1:1, 2:2, 3:3, 4:4, 5:5, 9:90}
-    
-    print(get_dict(test).keys())
+    d = get_dict(test)
+    print(d.keys())
     
 if __name__ == "__main__":
     main()
